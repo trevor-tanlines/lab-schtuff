@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+nav#leftbox {
+    float: left;
+    width: 25%;
+}
+
+nav#leftbox h5 {
+    background: #ff0000;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+nav#leftbox h5 a {
+    color: #ffffff;
+    font-size: 1.6em;
+    text-decoration: none;
+}   
+
+nav#leftbox h5 a:hover {
+    color: yellow;
+}
+
+nav#leftbox h5:nth-child(1)::first-letter {
+    color: black;
+}
+nav#leftbox h5:nth-child(2)::first-letter {
+    color: blue;
+}
+nav#leftbox h5:nth-child(3)::first-letter{
+    color: teal;
+}
+nav#leftbox h5:nth-child(4)::first-letter {
+    color: lime;
+}
+nav#leftbox h5:nth-child(5)::first-letter {
+    color: maroon;
+}
+nav#leftbox h5:nth-child(6)::first-letter{
+    color: aqua;
+}
+nav#leftbox h5:nth-child(7)::first-letter{
+    color: silver;
+}
+nav#leftbox h5:nth-child(8)::first-letter {
+    color: yellow;
+}
+
+#rightbox {
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    text-shadow: 5px 5px 3px #ccc;
+    right: 150px;
+}
+
+article {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1  {
+    position: absolute;
+    left: 80%;
+}
+
+footer {
+    left: 530px;
+    position: absolute;
+    text-align: center;
+    top: 220%;
+}
